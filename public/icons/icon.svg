@@ -1,0 +1,25 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="fox" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#7B1FA2"/>
+      <stop offset=".48" stop-color="#FF3D24"/>
+      <stop offset="1" stop-color="#FFB000"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#42B9F5"/>
+      <stop offset="1" stop-color="#0755A5"/>
+    </linearGradient>
+  </defs>
+  <rect x="28" y="35" width="67" height="57" rx="9" fill="#FFF" stroke="#172F60" stroke-width="3"/>
+  <path d="M28 44Q28 35 37 35H86Q95 35 95 44V50H28Z" fill="#172F60"/>
+  <circle cx="37" cy="42" r="2" fill="#FF635B"/>
+  <circle cx="44" cy="42" r="2" fill="#FFC12C"/>
+  <circle cx="51" cy="42" r="2" fill="#45C77B"/>
+  <path d="M37 59H84M37 66H61M37 73H55" stroke="#B9C9E2" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="76" cy="76" r="22" fill="#153B78" stroke="#FFF" stroke-width="3"/>
+  <circle cx="76" cy="76" r="17" fill="url(#lens)"/>
+  <path d="M65 67L71 85 77 70 83 85 88 67" fill="none" stroke="#FFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 92L108 108" stroke="#153B78" stroke-width="10" stroke-linecap="round"/>
+  <path d="M99 99L109 109" stroke="#2B64AC" stroke-width="4" stroke-linecap="round"/>
+</svg>
